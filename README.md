@@ -34,6 +34,9 @@ $ chmod +x make.sh
 ```
 After that, move the executable to anywhere in your PATH to access it anywhere, or create a shortcut for easy access.
 
+<h2>Example JSON</h2>
+The example JSON is available in the <code>example.jsonc</code> file (it's <code>.jsonc</code> so I can add comments).
+
 <h2>Maintainers</h2>
 
 - tomeczeklmaooo

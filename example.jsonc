@@ -1,0 +1,14 @@
+{
+	"n": {
+		"id": "pn-txn-#####", // ##### is an id of the transaction, so the first added would be 00001, then 00002, and so on, all the way up to FFFFF
+		"date": "", // date in YYYY-MM-DD format
+		"type": "", // either "income" or "expense"
+		"category": "", // something like "groceries", "rent", "bills", etc.
+		"sender": "", // who sent the money, if type is "expense", then this is automatically set to "You"
+		"recipient": "", // who received the money, if type is "income", then this is automatically set to "You"
+		"amount": 0, // a integer value of the transaction, the unit is the smallest unit of the currency, then converted during runtime, for example: 3583 gr -> 35.83 PLN
+		"currency": "", // currency of the transaction, default can be set in the configuration file / options menu
+		"payment_method": "", // was it cash, card, or bank transfer?
+		"description": "" // brief description, max. 255 chars
+	}
+}
